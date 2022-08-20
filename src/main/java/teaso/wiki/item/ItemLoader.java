@@ -20,6 +20,9 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(FLOOR_2_2).setRegistryName("loadmodel:floor_2_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_3).setRegistryName("loadmodel:floor_2_3"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_4).setRegistryName("loadmodel:floor_2_4"));
+        event.getRegistry().register(new ItemBlock(FLOOR_2_5).setRegistryName("loadmodel:floor_2_5"));
+        event.getRegistry().register(new ItemBlock(FLOOR_2_6).setRegistryName("loadmodel:floor_2_6"));
+        event.getRegistry().register(new ItemBlock(FLOOR_2_7).setRegistryName("loadmodel:floor_2_7"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_1).setRegistryName("loadmodel:floor_3_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_2).setRegistryName("loadmodel:floor_3_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_4).setRegistryName("loadmodel:floor_4"));
