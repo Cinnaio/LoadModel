@@ -1,0 +1,16 @@
+[
+{
+  "modid": "loadmodel",
+  "name": "LoadModel",
+  "description": "LoadModel for XUSTCraft.",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Cinnaio/LoadModel",
+  "updateUrl": "",
+  "authorList": ["MOON"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

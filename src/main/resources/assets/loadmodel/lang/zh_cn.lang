@@ -1,0 +1,14 @@
+itemGroup.icon=字符标识
+itemGroup.floor=地板类方块
+itemGroup.wall=墙体类方块
+
+tile.loadmodel.xust.name=西科标识_1
+tile.loadmodel.floor_1.name=宿舍地板_1
+tile.loadmodel.floor_2_1.name=明德广场地板_1
+tile.loadmodel.floor_2_2.name=明德广场地板_2
+tile.loadmodel.floor_2_3.name=明德广场地板_3
+tile.loadmodel.floor_2_4.name=明德广场地板_4
+tile.loadmodel.floor_3_1.name=人行道地板_1
+tile.loadmodel.floor_3_2.name=人行道地板_2
+
+tile.loadmodel.floor_4.name=综合楼附近地板_1

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loadmodel:wall_1",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "loadmodel:wall_1",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "loadmodel:wall_1",
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "loadmodel:wall_1",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}
