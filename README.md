@@ -9,5 +9,5 @@
 2.导入IDEA进行构建
 <p></p>
 3.导出jar文件添加至1.12.2Minecraft客户端
-<p></p>
-LoadModel for XUSTCraft.
+
+### LoadModel for XUSTCraft.
