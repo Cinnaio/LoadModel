@@ -11,6 +11,10 @@ tile.loadmodel.floor_2_4.name=明德广场地板_4
 tile.loadmodel.floor_2_5.name=明德广场地板_5
 tile.loadmodel.floor_2_6.name=明德广场地板_6
 tile.loadmodel.floor_2_7.name=明德广场地板_7
+tile.loadmodel.floor_2_8.name=明德广场地板_8
+tile.loadmodel.floor_2_9.name=明德广场地板_9
+tile.loadmodel.floor_2_10.name=明德广场地板_10
+tile.loadmodel.floor_2_11.name=明德广场地板_11
 tile.loadmodel.floor_3_1.name=人行道地板_1
 tile.loadmodel.floor_3_2.name=人行道地板_2
 
