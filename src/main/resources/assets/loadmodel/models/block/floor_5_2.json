@@ -1,9 +1,9 @@
 {
 	"credit": "XUSTCraft.Maded by MOON",
-	"texture_size": [64, 64],
+	"texture_size": [512, 512],
 	"textures": {
-		"0": "loadmodel:blocks/floor/floor_1",
-		"particle": "loadmodel:blocks/floor/floor_1"
+		"0": "loadmodel:blocks/floor/floor_5_2",
+		"particle": "loadmodel:blocks/floor/floor_5_2"
 	},
 	"elements": [
 		{

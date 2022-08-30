@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loadmodel:stair_1",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "loadmodel:stair_1",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "loadmodel:stair_1",
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "loadmodel:stair_1",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

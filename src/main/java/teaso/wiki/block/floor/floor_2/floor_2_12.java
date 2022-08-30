@@ -12,9 +12,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import teaso.wiki.XUST;
 
-public class floor_2_11 extends Block {
+public class floor_2_12 extends Block {
 
-    public floor_2_11() {
+    public floor_2_12() {
         super(Material.ROCK);
         setCreativeTab(XUST.MY_TAB1);
         setUnlocalizedName("loadmodel.floor_2_12");

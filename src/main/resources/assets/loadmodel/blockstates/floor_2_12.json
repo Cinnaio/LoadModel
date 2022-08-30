@@ -1,20 +1,20 @@
 {
   "variants": {
     "facing=north": {
-      "model": "loadmodel:xust",
-      "y": 180
+      "model": "loadmodel:floor_2_12"
     },
     "facing=east": {
-      "model": "loadmodel:xust",
+      "model": "loadmodel:floor_2_12",
       "y": 90,
       "uvlock": false
     },
     "facing=south": {
-      "model": "loadmodel:xust",
-      "uvlock": false
+      "model": "loadmodel:floor_2_12",
+      "uvlock": false,
+      "y": 180
     },
     "facing=west": {
-      "model": "loadmodel:xust",
+      "model": "loadmodel:floor_2_12",
       "y": 270,
       "uvlock": false
     }

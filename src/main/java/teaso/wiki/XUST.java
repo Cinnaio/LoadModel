@@ -43,7 +43,7 @@ public class XUST {
     public static final CreativeTabs MY_TAB0 = new CreativeTabs("icon") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(BlockLoader.FLOOR_1);
+            return new ItemStack(BlockLoader.FLOOR_1_1);
         }
     };
 
@@ -51,7 +51,7 @@ public class XUST {
     public static final CreativeTabs MY_TAB1 = new CreativeTabs("floor") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(BlockLoader.FLOOR_1);
+            return new ItemStack(BlockLoader.FLOOR_1_1);
         }
     };
 
@@ -59,7 +59,7 @@ public class XUST {
     public static final CreativeTabs MY_TAB2 = new CreativeTabs("wall") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(BlockLoader.FLOOR_1);
+            return new ItemStack(BlockLoader.FLOOR_1_1);
         }
     };
 

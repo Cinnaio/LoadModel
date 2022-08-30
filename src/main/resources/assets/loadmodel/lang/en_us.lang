@@ -3,7 +3,7 @@ itemGroup.floor=Floor
 itemGroup.wall=Wall
 
 tile.loadmodel.xust.name=icon of XUST
-tile.loadmodel.floor_1.name=floor_1 of dorm
+tile.loadmodel.floor_1_1.name=floor_1 of dorm
 tile.loadmodel.floor_2_1.name=floor_2_1 of Mingde Ground
 tile.loadmodel.floor_2_2.name=floor_2_2 of Mingde Ground
 tile.loadmodel.floor_2_3.name=floor_2_3 of Mingde Ground

@@ -11,11 +11,12 @@ import static teaso.wiki.block.BlockLoader.*;
 
 @Mod.EventBusSubscriber
 public class ItemLoader {
-
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> event){
         event.getRegistry().register(new ItemBlock(WALL_1).setRegistryName("loadmodel:wall_1"));
-        event.getRegistry().register(new ItemBlock(FLOOR_1).setRegistryName("loadmodel:floor_1"));
+
+        event.getRegistry().register(new ItemBlock(FLOOR_1_1).setRegistryName("loadmodel:floor_1_1"));
+        event.getRegistry().register(new ItemBlock(FLOOR_1_2).setRegistryName("loadmodel:floor_1_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_1).setRegistryName("loadmodel:floor_2_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_2).setRegistryName("loadmodel:floor_2_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_3).setRegistryName("loadmodel:floor_2_3"));
@@ -27,9 +28,15 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(FLOOR_2_9).setRegistryName("loadmodel:floor_2_9"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_10).setRegistryName("loadmodel:floor_2_10"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_11).setRegistryName("loadmodel:floor_2_11"));
+        event.getRegistry().register(new ItemBlock(FLOOR_2_11).setRegistryName("loadmodel:floor_2_12"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_1).setRegistryName("loadmodel:floor_3_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_2).setRegistryName("loadmodel:floor_3_2"));
+        event.getRegistry().register(new ItemBlock(FLOOR_3_3).setRegistryName("loadmodel:floor_3_3"));
         event.getRegistry().register(new ItemBlock(FLOOR_4).setRegistryName("loadmodel:floor_4"));
+        event.getRegistry().register(new ItemBlock(FLOOR_5_1).setRegistryName("loadmodel:floor_5_1"));
+        event.getRegistry().register(new ItemBlock(FLOOR_5_2).setRegistryName("loadmodel:floor_5_2"));
+
+        event.getRegistry().register(new ItemBlock(STAIR_1).setRegistryName("loadmodel:stair_1"));
     }
 }
 
