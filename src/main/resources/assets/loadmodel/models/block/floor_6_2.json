@@ -1,0 +1,43 @@
+{
+	"credit": "XUSTCraft.Maded by MOON",
+	"texture_size": [512, 512],
+	"textures": {
+		"0": "loadmodel:blocks/floor/floor_6_2",
+		"particle": "loadmodel:blocks/floor/floor_6_2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"},
+				"east": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"},
+				"south": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"},
+				"west": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"},
+				"up": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"},
+				"down": {"uv": [16, 14.40625, 0, 1.53125], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"translation": [0.25, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

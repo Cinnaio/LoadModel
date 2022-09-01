@@ -29,7 +29,8 @@ tile.loadmodel.floor_4.name=综合楼附近地板_1
 tile.loadmodel.floor_5_1.name=煤炭科技楼地板_1
 tile.loadmodel.floor_5_2.name=煤炭科技楼地板_2
 
-
+tile.loadmodel.floor_6_1.name=田径场塑胶跑道_1
+tile.loadmodel.floor_6_2.name=田径场塑胶跑道_2
 
 tile.loadmodel.stair_1.name=宿舍楼梯_1
 

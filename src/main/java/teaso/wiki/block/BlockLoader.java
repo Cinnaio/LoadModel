@@ -13,6 +13,7 @@ import teaso.wiki.block.floor.floor_1.*;
 import teaso.wiki.block.floor.floor_2.*;
 import teaso.wiki.block.floor.floor_3.*;
 import teaso.wiki.block.floor.floor_5.*;
+import teaso.wiki.block.floor.floor_6.*;
 import teaso.wiki.block.icon.cap.*;
 import teaso.wiki.block.icon.xust.*;
 import teaso.wiki.block.stair.*;
@@ -42,6 +43,8 @@ public class BlockLoader {
     public static Block FLOOR_4 = new floor_4();
     public static Block FLOOR_5_1 = new floor_5_1();
     public static Block FLOOR_5_2 = new floor_5_2();
+    public static Block FLOOR_6_1 = new floor_6_1();
+    public static Block FLOOR_6_2 = new floor_6_2();
 
     public static Block STAIR_1 = new stair_1();
 
@@ -76,6 +79,8 @@ public class BlockLoader {
         event.getRegistry().register(FLOOR_4.setRegistryName("loadmodel:floor_4"));
         event.getRegistry().register(FLOOR_5_1.setRegistryName("loadmodel:floor_5_1"));
         event.getRegistry().register(FLOOR_5_2.setRegistryName("loadmodel:floor_5_2"));
+        event.getRegistry().register(FLOOR_6_1.setRegistryName("loadmodel:floor_6_1"));
+        event.getRegistry().register(FLOOR_6_2.setRegistryName("loadmodel:floor_6_2"));
 
         event.getRegistry().register(STAIR_1.setRegistryName("loadmodel:stair_1"));
 
@@ -111,6 +116,8 @@ public class BlockLoader {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_4),0,new ModelResourceLocation(FLOOR_4.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_5_1),0,new ModelResourceLocation(FLOOR_5_1.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_5_2),0,new ModelResourceLocation(FLOOR_5_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_6_1),0,new ModelResourceLocation(FLOOR_6_1.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_6_2),0,new ModelResourceLocation(FLOOR_6_2.getRegistryName(),"inventory"));
 
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(STAIR_1),0,new ModelResourceLocation(STAIR_1.getRegistryName(),"inventory"));
 
