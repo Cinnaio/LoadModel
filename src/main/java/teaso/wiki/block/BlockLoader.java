@@ -13,8 +13,10 @@ import teaso.wiki.block.floor.floor_1.*;
 import teaso.wiki.block.floor.floor_2.*;
 import teaso.wiki.block.floor.floor_3.*;
 import teaso.wiki.block.floor.floor_5.*;
-import teaso.wiki.block.stair.stair_1;
-import teaso.wiki.block.wall.wall_1;
+import teaso.wiki.block.icon.cap.*;
+import teaso.wiki.block.icon.xust.*;
+import teaso.wiki.block.stair.*;
+import teaso.wiki.block.wall.*;
 
 @Mod.EventBusSubscriber
 public class BlockLoader {
@@ -43,6 +45,13 @@ public class BlockLoader {
 
     public static Block STAIR_1 = new stair_1();
 
+    public static Block CAP_1 = new cap_1();
+    public static Block CAP_2 = new cap_2();
+    public static Block CAP_3 = new cap_3();
+    public static Block CAP_4 = new cap_4();
+
+    public static Block XUST_0 = new xust_0();
+
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event){
         event.getRegistry().register(WALL_1.setRegistryName("loadmodel:wall_1"));
@@ -69,6 +78,13 @@ public class BlockLoader {
         event.getRegistry().register(FLOOR_5_2.setRegistryName("loadmodel:floor_5_2"));
 
         event.getRegistry().register(STAIR_1.setRegistryName("loadmodel:stair_1"));
+
+        event.getRegistry().register(CAP_1.setRegistryName("loadmodel:cap_1"));
+        event.getRegistry().register(CAP_2.setRegistryName("loadmodel:cap_2"));
+        event.getRegistry().register(CAP_3.setRegistryName("loadmodel:cap_3"));
+        event.getRegistry().register(CAP_4.setRegistryName("loadmodel:cap_4"));
+
+        event.getRegistry().register(XUST_0.setRegistryName("loadmodel:xust_0"));
     }
 
     @SubscribeEvent
@@ -97,5 +113,12 @@ public class BlockLoader {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_5_2),0,new ModelResourceLocation(FLOOR_5_2.getRegistryName(),"inventory"));
 
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(STAIR_1),0,new ModelResourceLocation(STAIR_1.getRegistryName(),"inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_1),0,new ModelResourceLocation(CAP_1.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_2),0,new ModelResourceLocation(CAP_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_3),0,new ModelResourceLocation(CAP_3.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_4),0,new ModelResourceLocation(CAP_4.getRegistryName(),"inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(XUST_0),0,new ModelResourceLocation(XUST_0.getRegistryName(),"inventory"));
     }
 }

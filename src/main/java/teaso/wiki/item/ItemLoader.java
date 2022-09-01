@@ -28,7 +28,7 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(FLOOR_2_9).setRegistryName("loadmodel:floor_2_9"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_10).setRegistryName("loadmodel:floor_2_10"));
         event.getRegistry().register(new ItemBlock(FLOOR_2_11).setRegistryName("loadmodel:floor_2_11"));
-        event.getRegistry().register(new ItemBlock(FLOOR_2_11).setRegistryName("loadmodel:floor_2_12"));
+        event.getRegistry().register(new ItemBlock(FLOOR_2_12).setRegistryName("loadmodel:floor_2_12"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_1).setRegistryName("loadmodel:floor_3_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_2).setRegistryName("loadmodel:floor_3_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_3_3).setRegistryName("loadmodel:floor_3_3"));
@@ -37,6 +37,13 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(FLOOR_5_2).setRegistryName("loadmodel:floor_5_2"));
 
         event.getRegistry().register(new ItemBlock(STAIR_1).setRegistryName("loadmodel:stair_1"));
+
+        event.getRegistry().register(new ItemBlock(CAP_1).setRegistryName("loadmodel:cap_1"));
+        event.getRegistry().register(new ItemBlock(CAP_2).setRegistryName("loadmodel:cap_2"));
+        event.getRegistry().register(new ItemBlock(CAP_3).setRegistryName("loadmodel:cap_3"));
+        event.getRegistry().register(new ItemBlock(CAP_4).setRegistryName("loadmodel:cap_4"));
+
+        event.getRegistry().register(new ItemBlock(XUST_0).setRegistryName("loadmodel:xust_0"));
     }
 }
 

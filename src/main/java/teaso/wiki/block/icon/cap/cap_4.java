@@ -1,4 +1,4 @@
-package teaso.wiki.block.icon.xust;
+package teaso.wiki.block.icon.cap;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -7,18 +7,36 @@ import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import teaso.wiki.XUST;
 
-public class xust_1 extends Block {
+public class cap_4 extends Block {
 
-    public xust_1() {
+    public cap_4() {
         super(Material.ROCK);
         setCreativeTab(XUST.MY_TAB0);
-        setUnlocalizedName("loadmodel.xust_1");
-        setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.SOUTH));
+        setUnlocalizedName("loadmodel.cap_4");
+        setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+    }
+
+    public static final AxisAlignedBB AABB = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.0D, 1.0D);
+
+    @Override
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+        return AABB;
+    }
+
+    @SideOnly(Side.CLIENT)
+    public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.TRANSLUCENT;
     }
 
     @Override
