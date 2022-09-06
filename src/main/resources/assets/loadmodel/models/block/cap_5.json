@@ -1,0 +1,46 @@
+{
+	"credit": "XUSTCraft.Maded by MOON",
+	"texture_size": [512, 512],
+	"textures": {
+		"0": "loadmodel:blocks/cap/cap_5",
+		"particle": "loadmodel:blocks/cap/cap_5"
+	},
+	"elements": [
+		{
+			"from": [0, 0.1, 0],
+			"to": [28, 0.1, 28],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.43, 0.43, 0.43]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [85, -27, 24],
+			"translation": [-1.5, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

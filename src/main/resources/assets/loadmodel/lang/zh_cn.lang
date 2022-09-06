@@ -6,7 +6,6 @@ tile.loadmodel.xust_0.name=西科标识_1
 
 tile.loadmodel.floor_1_1.name=宿舍地板_1
 tile.loadmodel.floor_1_2.name=宿舍地板_2
-
 tile.loadmodel.floor_2_1.name=明德广场地板_1
 tile.loadmodel.floor_2_2.name=明德广场地板_2
 tile.loadmodel.floor_2_3.name=明德广场地板_3
@@ -19,24 +18,33 @@ tile.loadmodel.floor_2_9.name=明德广场地板_9
 tile.loadmodel.floor_2_10.name=明德广场地板_10
 tile.loadmodel.floor_2_11.name=明德广场地板_11
 tile.loadmodel.floor_2_12.name=明德广场地板_12
-
 tile.loadmodel.floor_3_1.name=人行道地板_1
 tile.loadmodel.floor_3_2.name=人行道地板_2
 tile.loadmodel.floor_3_3.name=人行道地板_3
-
 tile.loadmodel.floor_4.name=综合楼附近地板_1
-
 tile.loadmodel.floor_5_1.name=煤炭科技楼地板_1
 tile.loadmodel.floor_5_2.name=煤炭科技楼地板_2
-
 tile.loadmodel.floor_6_1.name=田径场塑胶跑道_1
 tile.loadmodel.floor_6_2.name=田径场塑胶跑道_2
+tile.loadmodel.floor_7_1.name=浴室方块_1
+tile.loadmodel.floor_7_2.name=浴室方块_2
+tile.loadmodel.floor_7_3.name=浴室方块_3
 
 tile.loadmodel.stair_1.name=宿舍楼梯_1
 
 tile.loadmodel.wall_1.name=宿舍墙角砖_1
+tile.loadmodel.wall_2.name=宿舍墙砖_2
+tile.loadmodel.wall_3.name=宿舍墙砖_3
 
 tile.loadmodel.cap_1.name=井盖_1
 tile.loadmodel.cap_2.name=井盖_2
 tile.loadmodel.cap_3.name=井盖_3
 tile.loadmodel.cap_4.name=井盖_4
+tile.loadmodel.cap_5.name=井盖_5
+
+tile.loadmodel.icon_1.name=标识_1
+tile.loadmodel.icon_2.name=标识_2
+tile.loadmodel.icon_3.name=标识_3
+tile.loadmodel.icon_4.name=标识_4
+tile.loadmodel.icon_5.name=标识_5
+tile.loadmodel.icon_6.name=标识_6

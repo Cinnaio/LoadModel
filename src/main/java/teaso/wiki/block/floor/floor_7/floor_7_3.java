@@ -1,4 +1,4 @@
-package teaso.wiki.block.floor.floor_6;
+package teaso.wiki.block.floor.floor_7;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -12,12 +12,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import teaso.wiki.XUST;
 
-public class floor_6_1 extends Block {
+public class floor_7_3 extends Block {
 
-    public floor_6_1() {
+    public floor_7_3() {
         super(Material.ROCK);
         setCreativeTab(XUST.MY_TAB1);
-        setUnlocalizedName("loadmodel.floor_6_1");
+        setUnlocalizedName("loadmodel.floor_7_3");
         setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
 
@@ -45,5 +45,4 @@ public class floor_6_1 extends Block {
         worldIn.setBlockState(pos, state.withProperty(FACING, placer.getHorizontalFacing().getOpposite()));
     }
 }
-
 

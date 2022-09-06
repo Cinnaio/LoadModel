@@ -59,7 +59,7 @@ public class XUST {
     public static final CreativeTabs MY_TAB2 = new CreativeTabs("wall") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(BlockLoader.FLOOR_1_1);
+            return new ItemStack(BlockLoader.WALL_2);
         }
     };
 

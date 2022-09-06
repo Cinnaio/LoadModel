@@ -14,6 +14,8 @@ public class ItemLoader {
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> event){
         event.getRegistry().register(new ItemBlock(WALL_1).setRegistryName("loadmodel:wall_1"));
+        event.getRegistry().register(new ItemBlock(WALL_2).setRegistryName("loadmodel:wall_2"));
+        event.getRegistry().register(new ItemBlock(WALL_3).setRegistryName("loadmodel:wall_3"));
 
         event.getRegistry().register(new ItemBlock(FLOOR_1_1).setRegistryName("loadmodel:floor_1_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_1_2).setRegistryName("loadmodel:floor_1_2"));
@@ -37,6 +39,9 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(FLOOR_5_2).setRegistryName("loadmodel:floor_5_2"));
         event.getRegistry().register(new ItemBlock(FLOOR_6_1).setRegistryName("loadmodel:floor_6_1"));
         event.getRegistry().register(new ItemBlock(FLOOR_6_2).setRegistryName("loadmodel:floor_6_2"));
+        event.getRegistry().register(new ItemBlock(FLOOR_7_1).setRegistryName("loadmodel:floor_7_1"));
+        event.getRegistry().register(new ItemBlock(FLOOR_7_2).setRegistryName("loadmodel:floor_7_2"));
+        event.getRegistry().register(new ItemBlock(FLOOR_7_3).setRegistryName("loadmodel:floor_7_3"));
 
         event.getRegistry().register(new ItemBlock(STAIR_1).setRegistryName("loadmodel:stair_1"));
 
@@ -44,8 +49,17 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(CAP_2).setRegistryName("loadmodel:cap_2"));
         event.getRegistry().register(new ItemBlock(CAP_3).setRegistryName("loadmodel:cap_3"));
         event.getRegistry().register(new ItemBlock(CAP_4).setRegistryName("loadmodel:cap_4"));
+        event.getRegistry().register(new ItemBlock(CAP_5).setRegistryName("loadmodel:cap_5"));
 
         event.getRegistry().register(new ItemBlock(XUST_0).setRegistryName("loadmodel:xust_0"));
+
+        event.getRegistry().register(new ItemBlock(ICON_1).setRegistryName("loadmodel:icon_1"));
+        event.getRegistry().register(new ItemBlock(ICON_2).setRegistryName("loadmodel:icon_2"));
+        event.getRegistry().register(new ItemBlock(ICON_3).setRegistryName("loadmodel:icon_3"));
+        event.getRegistry().register(new ItemBlock(ICON_4).setRegistryName("loadmodel:icon_4"));
+        event.getRegistry().register(new ItemBlock(ICON_5).setRegistryName("loadmodel:icon_5"));
+        event.getRegistry().register(new ItemBlock(ICON_6).setRegistryName("loadmodel:icon_6"));
+
     }
 }
 

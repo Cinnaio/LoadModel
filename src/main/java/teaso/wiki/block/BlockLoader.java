@@ -14,7 +14,9 @@ import teaso.wiki.block.floor.floor_2.*;
 import teaso.wiki.block.floor.floor_3.*;
 import teaso.wiki.block.floor.floor_5.*;
 import teaso.wiki.block.floor.floor_6.*;
+import teaso.wiki.block.floor.floor_7.*;
 import teaso.wiki.block.icon.cap.*;
+import teaso.wiki.block.icon.*;
 import teaso.wiki.block.icon.xust.*;
 import teaso.wiki.block.stair.*;
 import teaso.wiki.block.wall.*;
@@ -22,6 +24,8 @@ import teaso.wiki.block.wall.*;
 @Mod.EventBusSubscriber
 public class BlockLoader {
     public static Block WALL_1 = new wall_1();
+    public static Block WALL_2 = new wall_2();
+    public static Block WALL_3 = new wall_3();
 
     public static Block FLOOR_1_1 = new floor_1_1();
     public static Block FLOOR_1_2 = new floor_1_2();
@@ -45,6 +49,9 @@ public class BlockLoader {
     public static Block FLOOR_5_2 = new floor_5_2();
     public static Block FLOOR_6_1 = new floor_6_1();
     public static Block FLOOR_6_2 = new floor_6_2();
+    public static Block FLOOR_7_1 = new floor_7_1();
+    public static Block FLOOR_7_2 = new floor_7_2();
+    public static Block FLOOR_7_3 = new floor_7_3();
 
     public static Block STAIR_1 = new stair_1();
 
@@ -52,12 +59,22 @@ public class BlockLoader {
     public static Block CAP_2 = new cap_2();
     public static Block CAP_3 = new cap_3();
     public static Block CAP_4 = new cap_4();
+    public static Block CAP_5 = new cap_5();
 
     public static Block XUST_0 = new xust_0();
+
+    public static Block ICON_1 = new icon_1();
+    public static Block ICON_2 = new icon_2();
+    public static Block ICON_3 = new icon_3();
+    public static Block ICON_4 = new icon_4();
+    public static Block ICON_5 = new icon_5();
+    public static Block ICON_6 = new icon_6();
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event){
         event.getRegistry().register(WALL_1.setRegistryName("loadmodel:wall_1"));
+        event.getRegistry().register(WALL_2.setRegistryName("loadmodel:wall_2"));
+        event.getRegistry().register(WALL_3.setRegistryName("loadmodel:wall_3"));
 
         event.getRegistry().register(FLOOR_1_1.setRegistryName("loadmodel:floor_1_1"));
         event.getRegistry().register(FLOOR_1_2.setRegistryName("loadmodel:floor_1_2"));
@@ -81,6 +98,9 @@ public class BlockLoader {
         event.getRegistry().register(FLOOR_5_2.setRegistryName("loadmodel:floor_5_2"));
         event.getRegistry().register(FLOOR_6_1.setRegistryName("loadmodel:floor_6_1"));
         event.getRegistry().register(FLOOR_6_2.setRegistryName("loadmodel:floor_6_2"));
+        event.getRegistry().register(FLOOR_7_1.setRegistryName("loadmodel:floor_7_1"));
+        event.getRegistry().register(FLOOR_7_2.setRegistryName("loadmodel:floor_7_2"));
+        event.getRegistry().register(FLOOR_7_3.setRegistryName("loadmodel:floor_7_3"));
 
         event.getRegistry().register(STAIR_1.setRegistryName("loadmodel:stair_1"));
 
@@ -88,13 +108,23 @@ public class BlockLoader {
         event.getRegistry().register(CAP_2.setRegistryName("loadmodel:cap_2"));
         event.getRegistry().register(CAP_3.setRegistryName("loadmodel:cap_3"));
         event.getRegistry().register(CAP_4.setRegistryName("loadmodel:cap_4"));
+        event.getRegistry().register(CAP_5.setRegistryName("loadmodel:cap_5"));
 
         event.getRegistry().register(XUST_0.setRegistryName("loadmodel:xust_0"));
+
+        event.getRegistry().register(ICON_1.setRegistryName("loadmodel:icon_1"));
+        event.getRegistry().register(ICON_2.setRegistryName("loadmodel:icon_2"));
+        event.getRegistry().register(ICON_3.setRegistryName("loadmodel:icon_3"));
+        event.getRegistry().register(ICON_4.setRegistryName("loadmodel:icon_4"));
+        event.getRegistry().register(ICON_5.setRegistryName("loadmodel:icon_5"));
+        event.getRegistry().register(ICON_6.setRegistryName("loadmodel:icon_6"));
     }
 
     @SubscribeEvent
     public static void registerItemBlockModel(ModelRegistryEvent event){
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(WALL_1),0,new ModelResourceLocation(WALL_1.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(WALL_2),0,new ModelResourceLocation(WALL_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(WALL_3),0,new ModelResourceLocation(WALL_3.getRegistryName(),"inventory"));
 
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_1_1),0,new ModelResourceLocation(FLOOR_1_1.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_1_2),0,new ModelResourceLocation(FLOOR_1_2.getRegistryName(),"inventory"));
@@ -118,6 +148,9 @@ public class BlockLoader {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_5_2),0,new ModelResourceLocation(FLOOR_5_2.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_6_1),0,new ModelResourceLocation(FLOOR_6_1.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_6_2),0,new ModelResourceLocation(FLOOR_6_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_7_1),0,new ModelResourceLocation(FLOOR_7_1.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_7_2),0,new ModelResourceLocation(FLOOR_7_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(FLOOR_7_3),0,new ModelResourceLocation(FLOOR_7_3.getRegistryName(),"inventory"));
 
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(STAIR_1),0,new ModelResourceLocation(STAIR_1.getRegistryName(),"inventory"));
 
@@ -125,7 +158,16 @@ public class BlockLoader {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_2),0,new ModelResourceLocation(CAP_2.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_3),0,new ModelResourceLocation(CAP_3.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_4),0,new ModelResourceLocation(CAP_4.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(CAP_5),0,new ModelResourceLocation(CAP_5.getRegistryName(),"inventory"));
 
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(XUST_0),0,new ModelResourceLocation(XUST_0.getRegistryName(),"inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_1),0,new ModelResourceLocation(ICON_1.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_2),0,new ModelResourceLocation(ICON_2.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_3),0,new ModelResourceLocation(ICON_3.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_4),0,new ModelResourceLocation(ICON_4.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_5),0,new ModelResourceLocation(ICON_5.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_6),0,new ModelResourceLocation(ICON_6.getRegistryName(),"inventory"));
+
     }
 }
