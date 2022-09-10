@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import teaso.wiki.block.equipment.*;
 import teaso.wiki.block.floor.*;
 import teaso.wiki.block.floor.floor_1.*;
 import teaso.wiki.block.floor.floor_2.*;
@@ -69,6 +70,11 @@ public class BlockLoader {
     public static Block ICON_4 = new icon_4();
     public static Block ICON_5 = new icon_5();
     public static Block ICON_6 = new icon_6();
+    public static Block ICON_7 = new icon_7();
+    public static Block ICON_8 = new icon_8();
+    public static Block ICON_9 = new icon_9();
+
+    public static Block EQUIPMENT_1 = new equipment_1();
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event){
@@ -118,6 +124,12 @@ public class BlockLoader {
         event.getRegistry().register(ICON_4.setRegistryName("loadmodel:icon_4"));
         event.getRegistry().register(ICON_5.setRegistryName("loadmodel:icon_5"));
         event.getRegistry().register(ICON_6.setRegistryName("loadmodel:icon_6"));
+        event.getRegistry().register(ICON_7.setRegistryName("loadmodel:icon_7"));
+        event.getRegistry().register(ICON_8.setRegistryName("loadmodel:icon_8"));
+        event.getRegistry().register(ICON_9.setRegistryName("loadmodel:icon_9"));
+
+        event.getRegistry().register(EQUIPMENT_1.setRegistryName("loadmodel:equipment_1"));
+
     }
 
     @SubscribeEvent
@@ -168,6 +180,11 @@ public class BlockLoader {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_4),0,new ModelResourceLocation(ICON_4.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_5),0,new ModelResourceLocation(ICON_5.getRegistryName(),"inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_6),0,new ModelResourceLocation(ICON_6.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_7),0,new ModelResourceLocation(ICON_7.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_8),0,new ModelResourceLocation(ICON_8.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(ICON_9),0,new ModelResourceLocation(ICON_9.getRegistryName(),"inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(EQUIPMENT_1),0,new ModelResourceLocation(EQUIPMENT_1.getRegistryName(),"inventory"));
 
     }
 }

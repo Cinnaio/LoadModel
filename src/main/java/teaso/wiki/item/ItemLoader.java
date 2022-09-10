@@ -59,6 +59,11 @@ public class ItemLoader {
         event.getRegistry().register(new ItemBlock(ICON_4).setRegistryName("loadmodel:icon_4"));
         event.getRegistry().register(new ItemBlock(ICON_5).setRegistryName("loadmodel:icon_5"));
         event.getRegistry().register(new ItemBlock(ICON_6).setRegistryName("loadmodel:icon_6"));
+        event.getRegistry().register(new ItemBlock(ICON_7).setRegistryName("loadmodel:icon_7"));
+        event.getRegistry().register(new ItemBlock(ICON_8).setRegistryName("loadmodel:icon_8"));
+        event.getRegistry().register(new ItemBlock(ICON_9).setRegistryName("loadmodel:icon_9"));
+
+        event.getRegistry().register(new ItemBlock(EQUIPMENT_1).setRegistryName("loadmodel:equipment_1"));
 
     }
 }

@@ -22,7 +22,7 @@ public class icon_6 extends Block {
     public icon_6() {
         super(Material.ROCK);
         setCreativeTab(XUST.MY_TAB0);
-        setUnlocalizedName("loadmodel.icon_3");
+        setUnlocalizedName("loadmodel.icon_6");
         setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
 

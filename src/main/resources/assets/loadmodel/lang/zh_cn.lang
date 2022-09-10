@@ -48,3 +48,8 @@ tile.loadmodel.icon_3.name=标识_3
 tile.loadmodel.icon_4.name=标识_4
 tile.loadmodel.icon_5.name=标识_5
 tile.loadmodel.icon_6.name=标识_6
+tile.loadmodel.icon_7.name=标识_7
+tile.loadmodel.icon_8.name=标识_8
+tile.loadmodel.icon_9.name=标识_9
+
+tile.loadmodel.equipment_1.name=洗衣机

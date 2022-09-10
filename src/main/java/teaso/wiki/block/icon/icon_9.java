@@ -17,12 +17,12 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import teaso.wiki.XUST;
 
-public class icon_5 extends Block {
+public class icon_9 extends Block {
 
-    public icon_5() {
+    public icon_9() {
         super(Material.ROCK);
         setCreativeTab(XUST.MY_TAB0);
-        setUnlocalizedName("loadmodel.icon_5");
+        setUnlocalizedName("loadmodel.icon_9");
         setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
     }
 

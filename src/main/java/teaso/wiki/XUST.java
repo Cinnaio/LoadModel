@@ -20,8 +20,7 @@ public class XUST {
     @Mod.Instance(XUST.MODID)
     public static XUST instance;
 
-    @SidedProxy(clientSide = "teaso.wiki.client.ClientProxy",
-            serverSide = "teaso.wiki.common.CommonProxy")
+    @SidedProxy(clientSide = "teaso.wiki.client.ClientProxy", serverSide = "teaso.wiki.common.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler
@@ -37,7 +36,7 @@ public class XUST {
         proxy.postInit(event);
     }
 
-    // 创造模式物品栏
+    // 物品分类
 
     // 标识
     public static final CreativeTabs MY_TAB0 = new CreativeTabs("icon") {
@@ -60,6 +59,14 @@ public class XUST {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(BlockLoader.WALL_2);
+        }
+    };
+
+    // 器械
+    public static final CreativeTabs MY_TAB3 = new CreativeTabs("wall") {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(BlockLoader.EQUIPMENT_1);
         }
     };
 
